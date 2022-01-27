@@ -1,4 +1,4 @@
-body{background-color: #fdf6e3; font-size: 100%}
+body{background-color: #fdf6e3; font-size: 100%; position: relative;} /*add position: relative to main site to fix background niggles */
 
 #particles-js
 {

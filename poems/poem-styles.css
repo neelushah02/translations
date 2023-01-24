@@ -1,5 +1,6 @@
 body{background-color: #fdf6e3; font-size: 100%; position: relative;} /*add position: relative to main site to fix background niggles */
-
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@350&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 #particles-js
 {
   height: 100%;
@@ -25,7 +26,7 @@ button {
   background: none;
   border: none;
   padding: 0;
-  font-family: "Crimson Text",sans-serif;
+  font-family: "Radio Canada",sans-serif;
   font-size: 1.5em;
   color: #069;
   text-decoration: underline;
@@ -35,7 +36,7 @@ button {
 .name
 {
     color: black;
-    font-family:"Crimson Text",sans-serif; 
+    font-family:"Radio Canada",sans-serif; 
     font-size:3em; 
     /*margin-bottom: 2em;*/ 
     padding-bottom: 0%;
@@ -50,7 +51,7 @@ button {
 .key-info-headings
 {
     color: gray; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 2em; 
     margin-top: 0px;
 }
@@ -58,7 +59,7 @@ button {
 .key-info
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.2em;
 }
 
@@ -70,14 +71,14 @@ button {
 .writings-heading 
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.5em;
 }
 
 .writings-list
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.25em;
 }
 
@@ -86,14 +87,15 @@ a{text-decoration: none;}
 .english
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.2em;
     text-align: left
 }
 
 .hindi
 {
-    margin-left: 400px
+    margin-left: 400px;
+    font-family: 'Baloo 2', cursive;
 }
 /* Firefox < 16 */
 @-moz-keyframes fadein 
